@@ -1,0 +1,2 @@
+helm install user-helm user-helm/ --values user-helm/values.yaml  --debug --dry-run
+helm delete user-helm
